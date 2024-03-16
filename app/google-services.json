@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513743252020",
+    "project_id": "insuratech-e1961",
+    "storage_bucket": "insuratech-e1961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513743252020:android:1ba39944f1501fde2cf861",
+        "android_client_info": {
+          "package_name": "com.example.insuratech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOhTgKeRSm6vYv5xt88EGWxP4eH_eCglE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

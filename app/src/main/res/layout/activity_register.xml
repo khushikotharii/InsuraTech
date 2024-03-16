@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/logo_login"
+        android:id="@+id/logo_register"
         android:layout_width="match_parent"
         android:layout_height="225dp"
         android:layout_alignParentLeft="true"
@@ -20,7 +20,7 @@
         />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/r_email"
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:layout_centerHorizontal="true"
@@ -31,21 +31,19 @@
         />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/r_password"
         android:layout_width="350dp"
         android:layout_height="45dp"
         android:inputType="textPassword"
+        android:hint="Password"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="460dp"
-        android:hint="Password"
-        android:paddingLeft="12dp"
-        />
+        android:layout_marginTop="460dp"/>
 
     <ProgressBar
         android:layout_width="wrap_content"
         android:id="@+id/progressBar"
-        android:layout_below="@id/password"
+        android:layout_below="@id/r_password"
         android:layout_height="wrap_content"
         android:visibility="gone"/>
 
@@ -57,10 +55,10 @@
     <!--        android:hint="Forgot Password"/>-->
 
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/register_btn"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:text="Login"
+        android:text="Register"
         android:textColor="@color/white"
         android:fontFamily="@font/helvetica_bold"
         android:textSize="20dp"
@@ -71,23 +69,23 @@
         />
 
     <TextView
-        android:id="@+id/tv2"
+        android:id="@+id/tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16dp"
-        android:text="New User? Register!"
-        android:layout_marginTop="590dp"
+        android:text="Login Now!"
         android:fontFamily="@font/helvetica_bold"
+        android:layout_marginTop="590dp"
         android:layout_centerHorizontal="true"/>
 
-<!--    <Button-->
-<!--        android:id="@+id/bye"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_centerInParent="true"-->
-<!--        android:background="@drawable/button_bg"-->
-<!--        android:text="Dashboard"-->
-<!--        android:onClick="goDashboard"-->
-<!--        android:textColor="@color/black"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/bye"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:background="@drawable/button_bg"-->
+    <!--        android:text="Dashboard"-->
+    <!--        android:onClick="goDashboard"-->
+    <!--        android:textColor="@color/black"/>-->
 
 </RelativeLayout>
